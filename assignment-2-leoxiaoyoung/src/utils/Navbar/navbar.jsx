@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {Menu} from 'antd';
-
+import AddTraveller from "../../compontent/addTraveller/addTraveller";
 const items = [
     {
         label: 'Add Traveller',
@@ -34,6 +34,7 @@ const Navbar = ({ onVisibleChange,data,setTraveller }) => {
     return (
         <>
             <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
+            <AddTraveller data={data} setTraveller={setTraveller} showModal={showModal} setSm={setSm}/>
         </>
     );
 };

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Layout,Typography  } from 'antd';
 import View from "../../compontent/view/view"
 import DisPlayTraveller from "../../compontent/DisPlayTraveller.jsx/disPlayTraveller"
-
 import './index.css';
 import Navbar from '../../utils/Navbar/navbar';
 
