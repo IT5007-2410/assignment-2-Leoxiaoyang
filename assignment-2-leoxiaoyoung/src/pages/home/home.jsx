@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Layout,Typography  } from 'antd';
 import View from "../../compontent/view/view"
+import DisPlayTraveller from "../../compontent/DisPlayTraveller.jsx/disPlayTraveller"
+
 import './index.css';
 import Navbar from '../../utils/Navbar/navbar';
 
@@ -138,6 +140,7 @@ const Home = () => {
                     <Navbar onVisibleChange={recomposeVisible} data={travellers} setTraveller={setTraveller}/>
                 </Header>
                 <Content style={contentStyle}>
+                    <DisPlayTraveller recomposeVisible={recomposeVisible} visible={visible} travellers={travellers} toggleVisible={setVisible} setTraveller={setTraveller}/>
                     <Title style={siderStyle} level={2}>Train seat reservation status</Title>
                     <View traveller={travellers} setTraveller={setTraveller}/>
                 </Content>
