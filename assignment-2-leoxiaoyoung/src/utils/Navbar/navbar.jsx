@@ -24,7 +24,7 @@ const Navbar = ({ onVisibleChange,data,setTraveller }) => {
             onVisibleChange(false);
             setShowModal(true)
         }else if (e.key === 'del') {
-            // onVisibleChange(false);
+            // onVisibleChange(false)
         }
     };
     const setSm = (newShowModal) => {
