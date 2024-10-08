@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Layout,Typography  } from 'antd';
+import View from "../../compontent/view/view"
 import './index.css';
 import Navbar from '../../utils/Navbar/navbar';
 
@@ -138,6 +139,7 @@ const Home = () => {
                 </Header>
                 <Content style={contentStyle}>
                     <Title style={siderStyle} level={2}>Train seat reservation status</Title>
+                    <View traveller={travellers} setTraveller={setTraveller}/>
                 </Content>
                 <Footer style={footerStyle}>Footer</Footer>
             </Layout>
