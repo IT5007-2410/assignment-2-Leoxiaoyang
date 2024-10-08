@@ -6,12 +6,8 @@ const items = [
         label: 'Add Traveller',
         key: 'add',
         icon: <i className="iconfont icon-add" />
-    },
-    {
-        label: 'Delete Traveller',
-        key: 'del',
-        icon: <i className="iconfont icon-del"/>
     }
+
 ];
 
 const Navbar = ({ onVisibleChange,data,setTraveller }) => {

@@ -133,7 +133,7 @@ const Home = () => {
 
     return (
         <Layout style={{ minHeight: '100vh' }}> {/* 最小高度为视口的100% */}
-            <Sider style={siderStyle}>Sider</Sider>
+            <Sider style={siderStyle}>Liu Xiaoyang</Sider>
             <Layout>
                 <Header style={headerStyle}>
                     <Navbar onVisibleChange={recomposeVisible} data={travellers} setTraveller={setTraveller}/>
