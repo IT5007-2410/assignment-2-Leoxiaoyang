@@ -10,17 +10,17 @@ const { Header, Footer, Sider, Content } = Layout;
 const headerStyle = {
     textAlign: 'center',
     color: '#fff',
-    height: '10vh', // 使用视口高度单位
+    height: '10vh', 
     lineHeight: '64px',
     backgroundColor: '#4096ff',
 };
 
 const contentStyle = {
-    display: 'flex', // 使用 Flexbox 布局
-    flexDirection: 'column', // 子元素垂直排列
-    justifyContent: 'center', // 子元素在容器中居中
-    minHeight: '100vh', // 最小高度视口高度
-    padding: 0, // 移除内边距
+    display: 'flex', 
+    flexDirection: 'column', 
+    justifyContent: 'center', 
+    minHeight: '100vh', 
+    padding: 0, 
     backgroundColor: '#0958d9', // 确保背景颜色在这里设置
 };
 
